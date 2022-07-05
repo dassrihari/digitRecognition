@@ -24,7 +24,7 @@ stages:
     deps:
     - models/mnist_model_func.h5
     - src/evaluate.py
-    - report/buildtime
+
    
     metrics:
     - report/scores.json:
