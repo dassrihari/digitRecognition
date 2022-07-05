@@ -14,7 +14,7 @@ Following is the source code structure
 ## template -- User Interface 
       index.html               -- HTML file defining the UI for Flask app
 
-## models -- , saved_models --
+## models -- 
       mnist_model_func.h5     -- Model saved using the pickle utilitybuildtime
 
 ## images -- , static --
