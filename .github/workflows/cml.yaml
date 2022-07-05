@@ -13,7 +13,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r dvcrequirements.txt
-          dvc repro -s evaluate
+          dvc repro evaluate
           git fetch --prune
           dvc metrics diff --show-md main > report.md
           # Add figure to the report
